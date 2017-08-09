@@ -1,0 +1,73 @@
+/* main.css */
+
+/* this first section disables browser default styling*/
+html, body, h1, h2, h3, h4, p, div, ol, ul, li {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  color: #ffffff;
+  width: 700px;
+  margin: 0 auto 0 auto;
+}
+h2 strong {
+  font-weight: 400;
+}
+h3 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  margin: 20px 0 20px 0;
+}
+p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+}
+a {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+a:hover{
+  text-decoration: underline;
+}
+.header {
+  background-color: #999999;
+}
+.description {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skills, .examples {
+  width: 700px;
+  margin: 0 auto;
+}
+.skills ul, .examples ul {
+  list-style-type: none;
+}
+.skills li, .examples li {
+  margin-bottom: 25px;
+}
+.skills img {
+  float: left;
+  padding-right: 10px;
+}
