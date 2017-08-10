@@ -13,7 +13,6 @@ h1 {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
 }
 h2 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -57,17 +56,32 @@ a:hover{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.skills, .examples {
+.courses, .skills, .examples {
   width: 700px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
-.skills ul, .examples ul {
+.courses ul, .examples ul {
   list-style-type: none;
 }
-.skills li, .examples li {
+.courses li, .examples li {
   margin-bottom: 25px;
 }
-.skills img {
+.courses img {
   float: left;
   padding-right: 10px;
+}
+.skills li {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #444444;
+  color: #ffffff;
+  display: inline;
+  padding: 8px 8px 8px 8px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: #999999;
+  text-align: center;
 }
