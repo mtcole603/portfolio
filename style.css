@@ -71,6 +71,9 @@ a:hover{
   margin: 0 auto;
   margin-bottom: 30px;
 }
+.courses p {
+  padding-bottom: 10px;
+}
 .courses ul, .examples ul {
   list-style-type: none;
 }
