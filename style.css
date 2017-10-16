@@ -1,4 +1,4 @@
-/* main.css */
+/* style.css */
 
 /* this first section disables browser default styling*/
 html, body, h1, h2, h3, h4, p, div, ol, ul, li {
@@ -61,7 +61,7 @@ a:hover{
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
-  padding: 2px 6px 2px 6px;
+  padding: 4px 8px 4px 8px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
@@ -83,9 +83,9 @@ a:hover{
 .courses, .skills, .examples {
   width: 700px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.courses p {
+.courses p, .examples p {
   padding-bottom: 10px;
 }
 .courses ul, .examples ul {
